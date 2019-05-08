@@ -1,0 +1,20 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "chat app using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "mohit malik",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.2",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
+  }
+}
